@@ -1,0 +1,4 @@
+.card{
+    --teal-500: #38d9a9;
+    background-color: var(--teal-500);
+}
