@@ -9,7 +9,7 @@
     <script src="javascript.js"></script>
 </head>
 <body class="d-flex justify-content-center align-items-center h-100">
-    <article class="card w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="1" class="card w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 1</h1>
         <img class="w-75" src="img/country1.png" alt="img1">
         <form class="d-flex flex-column align-items-center">
@@ -28,12 +28,12 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
-    <article class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="2" class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 2</h1>
         <img class="w-75" src="img/country2.png" alt="img1">
         <form class="d-flex flex-column align-items-center">
@@ -52,14 +52,14 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
-    <article class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="3" class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 2</h1>
-        <img class="w-75" src="img/country2.png" alt="img1">
+        <img class="w-75" src="img/country3.png" alt="img1">
         <form class="d-flex flex-column align-items-center">
             <section>
                 <input class="btn-check" type="radio" id="unselected" name="country" value="unselected" checked>
@@ -76,14 +76,14 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
-    <article class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="4" class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 2</h1>
-        <img class="w-75" src="img/country2.png" alt="img1">
+        <img class="w-75" src="img/country4.png" alt="img1">
         <form class="d-flex flex-column align-items-center">
             <section>
                 <input class="btn-check" type="radio" id="unselected" name="country" value="unselected" checked>
@@ -100,14 +100,14 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
-    <article class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="5" class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 2</h1>
-        <img class="w-75" src="img/country2.png" alt="img1">
+        <img class="w-75" src="img/country5.png" alt="img1">
         <form class="d-flex flex-column align-items-center">
             <section>
                 <input class="btn-check" type="radio" id="unselected" name="country" value="unselected" checked>
@@ -124,14 +124,14 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
-    <article class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
+    <article id="6" class="card d-none w-50 h-75 flex-column justify-content-center align-items-center justify-content-evenly">
         <h1>Question 2</h1>
-        <img class="w-75" src="img/country2.png" alt="img1">
+        <img class="w-75" src="img/correct.jpg" alt="img1">
         <form class="d-flex flex-column align-items-center">
             <section>
                 <input class="btn-check" type="radio" id="unselected" name="country" value="unselected" checked>
@@ -148,8 +148,8 @@
                 <label class="btn" for="russia">Russia</label>
             </section>
             <section>
-                <button class="btn btn-warning" onclick="next()" disabled>Previous</button>
-                <button class="btn btn-warning">Next</button>
+                <button type="button" class="btn btn-warning" onclick="next()" disabled>Previous</button>
+                <button type="button" class="btn btn-warning" onclick="previous()">Next</button>
             </section> 
         </form>
     </article>
